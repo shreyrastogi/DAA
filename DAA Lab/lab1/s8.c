@@ -12,3 +12,11 @@ int main()
     scanf("%d",&key);
     for(i=0;i<n;i++)
     {
+        for(j=i+1;j<n;j++)
+        {
+            if((a[j]-a[i])>max_diff)
+                max_diff=a[j]-a[i];
+        }
+    }
+    printf("%d",max_diff);
+}
