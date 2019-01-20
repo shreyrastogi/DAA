@@ -168,3 +168,4 @@ printf("\n");
 primeFactors(a,b);
 return 0;
 }
+// I have taken help from https://www.geeksforgeeks.org/sieve-of-eratosthenes/ and https://www.geeksforgeeks.org/print-all-prime-factors-of-a-given-number/
