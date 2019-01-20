@@ -1,3 +1,10 @@
+/*
+
+HE1.1 Write an algorithm for finding counting inversions in an array. Inversion is a pair such that
+for an array A = {a1, a2, a3,...., an}, and ai > aj and i < j.
+
+*/
+
 #include<stdio.h>
 //#include<string.h>
 //#include<limits.h>
