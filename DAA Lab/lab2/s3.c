@@ -1,3 +1,15 @@
+/*
+
+LE2.1 Write a program to implement GCD (greatest common divisor) using the following three
+algorithms.
+a) Euclid’s algorithm
+b) Consecutive integer checking algorithm.
+c) Middle school procedure which makes use of common prime factors. For finding list of
+primes implement sieve of Eratosthenes.
+Find gcd(31415, 14142) by applying each of the above algorithms.
+
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
