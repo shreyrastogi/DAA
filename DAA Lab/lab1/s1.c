@@ -1,3 +1,11 @@
+/*
+
+LE1.1 Given an array. Let us assume that there can be duplicates in the list. Write a program to
+search for an element in the list in such a way that we get the highest index if there are
+duplicates.
+
+*/
+
 #include<stdio.h>
 //#include<string.h>
 #include<limits.h>
