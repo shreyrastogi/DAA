@@ -1,3 +1,10 @@
+/*
+
+HE1.2 You have 1 to N1 array and 1 to N numbers and one number is missing. Write a program for
+finding that missing number.
+
+*/
+
 #include<stdio.h>
 //#include<string.h>
 //#include<limits.h>
