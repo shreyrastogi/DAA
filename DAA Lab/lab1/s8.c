@@ -1,4 +1,20 @@
-//maximum-difference-between-two-elements
+/*
+
+HE1.3 Write a program to find out the largest difference between two elements A[i] and A[j] (A[j]-
+A[i]) of the array of integers A in O(n) time such that j > i. For example: Let A is an array of
+integers:
+int[] a = { 10, 3, 6, 8, 9, 4, 3 };
+if i=1, j=3, then diff = a[j] – a[i] = 8 – 3 = 5
+if i=4, j=6, then diff = a[j] – a[i] = 3 – 9 = -6
+……….
+……….
+if i=1, j=4, then diff = a[j] – a[i] = 9 – 3 = 6
+………..
+………..
+6 is the largest number between all the differences, that is the answer.
+
+*/
+
 #include<stdio.h>
 //#include<string.h>
 //#include<limits.h>
@@ -33,5 +49,5 @@ int main()
      printf("%d",max_diff);
 }
 /*
-I took help from https://www.geeksforgeeks.org/maximum-difference-between-two-elements/ for O(n) mehod
+I took help from https://www.geeksforgeeks.org/maximum-difference-between-two-elements/ for O(n) method
 */
