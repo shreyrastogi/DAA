@@ -26,16 +26,21 @@ void bubble_sort(int *a,int n)
     }
 }
 
-/*void reverse_array(int *a,int n)
+/*
+
+NOT Working??
+
+void reverse_array(int *a,int n)
 {
     int j=n-1;
     for(int i=0;i<n,j>=0;i++,j--)
     {
-        int t=*(a+j);
-        *(a+j)=*(a+i);
-        *(a+i)=t;
+        int t=a[j];
+        a[j]=a[j];
+        a[i]=t;
     }
 }
+
 */
 
 void reverseArray(int *arr, int start, int end)
@@ -92,11 +97,10 @@ int main()
 //----------------------------------------------------------------------------------
 
 //for worst case time complexity-----------------------------------------------------
-    reverseArray(array,size,size-1);
+    reverseArray(array,0,size-1);
     start3=clock();
     bubble_sort(array,size);
     end3=clock();
-
     cpu_time=((double)(end3-start3))/CLOCKS_PER_SEC;
 
     /*for(int i=0;i<size;i++)
