@@ -47,8 +47,8 @@ void merge(int *arr, int start, int mid, int end) {
 	}
 }
 
-// Arr is an array of integer type
-// start and end are the starting and ending index of current interval of Arr
+// arr is an array of integer type
+// start and end are the starting and ending index of current interval of arr
 
 void mergeSort(int *arr, int start, int end)
 {
